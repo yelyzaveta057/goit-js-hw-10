@@ -88,3 +88,19 @@ fieldset {
 .btn-create:hover {
   background: #6c8cff;
 }
+.createnot {
+  width: 350px;
+
+  border-radius: 8px;
+  background: #4e75ff;
+  border: transparent;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  padding: 8px 16px;
+  transition: 0.3s ease;
+}
