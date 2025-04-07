@@ -14,7 +14,6 @@ const secondsEl = document.querySelector('[data-seconds]');
 let userSelectedDate = null;
 let countdownInterval = null;
 
-//Налаштування для flatpickr
 const options = {
   enableTime: true,
   time_24hr: true,
@@ -73,7 +72,7 @@ function updateCountdown() {
   updateTimerDisplay(days, hours, minutes, seconds);
 }
 
-// Функція для розрахунку часу
+// Розрахунок часу
 function convertMs(ms) {
   const second = 1000;
   const minute = second * 60;
