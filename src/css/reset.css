@@ -32,3 +32,23 @@ img {
   max-width: 100%;
   height: auto;
 }
+.main-btn {
+  display: inline-block;
+  margin-left: 24px;
+  margin-bottom: 30px;
+  width: 140px;
+  padding: 8px 16px;
+  font-weight: 500;
+  color: #fff;
+  background: #4e75ff;
+  border: none;
+  border-color: transparent;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.main-btn:hover {
+  background: #4e75ff;
+}
