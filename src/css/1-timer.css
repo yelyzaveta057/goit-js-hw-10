@@ -1,0 +1,98 @@
+input {
+  width: 272px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  outline: none;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  transition: border-color 0.3s;
+}
+
+input:hover,
+input:focus {
+  border-color: 1px solid #000;
+}
+
+input:active {
+  border-color: 1px solid #4e75ff;
+}
+
+input:disabled {
+  border-color: #cfcfcf;
+  background: #fafafa;
+}
+
+button {
+  display: inline-block;
+  margin-left: 8px;
+
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  color: #fff;
+  background: #4e75ff;
+  border-radius: 8px;
+  border: none;
+  border-color: transparent;
+
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+
+button:disabled {
+  background: #cfcfcf;
+}
+
+.timer {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
